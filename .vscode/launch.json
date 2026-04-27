@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch BrokenChess",
+            "request": "launch",
+            "mainClass": "brokenchess.Application",
+            "preLaunchTask": "gradle: build",
+            "console": "integratedTerminal"
+        }
+    ]
+}
