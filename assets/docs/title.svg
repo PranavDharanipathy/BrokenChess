@@ -19,9 +19,9 @@ text {
   <!-- horizontally moving shine sweep -->
   <linearGradient id="goldShine">
     <stop offset="0%" stop-color="#000"/>
-    <stop offset="43%" stop-color="#871f1f"/>
+    <stop offset="43%" stop-color="#761b1b"/>
     <stop offset="50%" stop-color="#ffd900"/>
-    <stop offset="57%" stop-color="#6e0000"/>
+    <stop offset="57%" stop-color="#3b0000"/>
     <stop offset="100%" stop-color="#000"/>
 
     <animateTransform
