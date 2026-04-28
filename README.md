@@ -1,2 +1,4 @@
-# BrokenChess
-A casual chess variant designed to be played lightheartedly with friends, filled with jokes, laughter, and a joyful atmosphere.
+<p align="center">
+  <img src="./assets/docs/title.svg" alt="BrokenChess Title" />
+  <img src="./assets/docs/subtitle.gif" alt="BrokenChess Subtitle" />
+</p>
