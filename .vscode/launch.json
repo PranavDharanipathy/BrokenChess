@@ -5,7 +5,7 @@
             "type": "java",
             "name": "Launch BrokenChess",
             "request": "launch",
-            "mainClass": "brokenchess.Application",
+            "mainClass": "com.brokenchess.Application",
             "preLaunchTask": "gradle: build",
             "console": "integratedTerminal"
         }

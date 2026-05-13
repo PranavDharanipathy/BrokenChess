@@ -25,6 +25,18 @@ dependencies {
     implementation libs.guava
 }
 
+// Configure source sets
+sourceSets {
+    test {
+        java {
+            srcDirs = ['test/java']
+        }
+        resources {
+            srcDirs = ['test/resources']
+        }
+    }
+}
+
 // Apply a specific Java toolchain to ease working on different environments.
 java {
     toolchain {
@@ -34,7 +46,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'brokenchess.Application'
+    mainClass = 'com.brokenchess.Application'
 }
 
 tasks.named('test') {
