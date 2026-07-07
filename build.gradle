@@ -6,8 +6,6 @@
  */
 
 plugins {
-    // Apply the application plugin to add support for building a CLI application in Java.
-    //id 'application'
 
     // For modern cross-platform UI development
     id 'org.jetbrains.kotlin.jvm' version '2.0.21'
@@ -39,6 +37,8 @@ dependencies {
     implementation libs.guava
 
     implementation(compose.desktop.currentOs)
+    implementation(compose.material3)
+    implementation 'org.apache.xmlgraphics:batik-transcoder:1.17'
 }
 
 // Configure source sets
