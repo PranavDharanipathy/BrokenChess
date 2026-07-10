@@ -6,3 +6,8 @@ build
 
 #*.exe
 #*.dll
+
+.claude
+
+# Agents
+CLAUDE.md

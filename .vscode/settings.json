@@ -1,5 +1,5 @@
 {
     "code-runner.executorMap": {
-        "java": "cd $workspaceRoot && gradlew run"
+        "java": "cmd /c \"cd /d $workspaceRoot && .\\gradlew.bat run\""
     }
 }

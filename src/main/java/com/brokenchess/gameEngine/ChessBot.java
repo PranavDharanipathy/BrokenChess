@@ -1,4 +1,4 @@
-package com.brokenchess.engine;
+package com.brokenchess.gameEngine;
 
 @FunctionalInterface
 public interface ChessBot {

@@ -1,9 +1,7 @@
-package com.brokenchess.engine;
+package com.brokenchess;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
-
-import com.brokenchess.UiUtils;
 
 class ChessboardResizeTest {
 
